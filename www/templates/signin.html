@@ -1,0 +1,17 @@
+<ion-view title="Sign In">
+    <ion-content padding="true" class="has-header">
+        <form>
+            <ion-list>
+                <label class="item item-input">
+                    <span class="input-label">Username</span>
+                    <input type="text" placeholder="yourname@domain.com..." ng-model="data.email">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Password</span>
+                    <input type="password" placeholder="enter password..." ng-model="data.password">
+                </label>
+            </ion-list>
+            <button class="button button-stable button-block" ng-click="verifyAccount()">Done</button>
+        </form>
+    </ion-content>
+</ion-view>
